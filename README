@@ -1,0 +1,9 @@
+After extracting tuntap.tar.gz file, run './configure', 'make', and 'make install' as usual.
+
+Both 'tun' and 'tap' driver will be built and installed on your system. You can access these devices through /dev/tun and /dev/tap. 
+
+For OpenIndiana (oi-148), use:
+
+	./configure --prefix=""
+
+
